@@ -1,49 +1,65 @@
 # Deep Learning - GI-IADS
 
+Collection de projets pratiques en Deep Learning : Régression, Classification, CNN, NLP et Time Series. Implémentations avec PyTorch, TensorFlow et scikit-learn.
+
+---
+
 ## Labs Travaillés
 
-### 1. Classification
-Classification avec MLPClassifier et TensorFlow - Données loins, proches et moons dataset.
+### 1. Régression
+**Notebook:** `Livrable_1_Bellmir_Yahya.ipynb`  
+Prédictions numériques avec réseaux de neurones - régression linéaire et non-linéaire.
 
-📂 [Accéder au Lab Classification](./Classification/)
+📂 [Accéder au Lab Régression](./Regression/)
 
 ---
 
 ### 2. Classification
-Classification avec MLPClassifier et TensorFlow - Données loins, proches et moons dataset.
+**Notebook:** `Livrable_2_Bellmir_Yahya.ipynb`  
+Classification avec MLPClassifier et TensorFlow - datasets loins, proches et moons, activation ReLU/Sigmoid.
 
 📂 [Accéder au Lab Classification](./Classification/)
 
 ---
 
-### 3. Lab 1 - Introduction aux Réseaux de Neurones
-Implémentation de réseaux de neurones de base avec PyTorch/TensorFlow.
+### 3. CNN - Réseaux de Neurones Convolutifs
+**Notebook:** `Livrable_3_CNN_Bellmir_Yahya.ipynb`  
+Classification d'images avec architectures CNN - convolutions, pooling, architectures avancées.
 
-📂 [Accéder au Lab 1](./Lab1/)
-
----
-
-### 4. Lab 2 - Réseaux de Neurones Convolutifs (CNN)
-Classification d'images et architectures CNN avancées.
-
-📂 [Accéder au Lab 2](./Lab2/)
+📂 [Accéder au Lab CNN](./CNN/)
 
 ---
 
-### 5. Lab 3 - Réseaux de Neurones Récurrents (RNN)
-Traitement de séquences et applications NLP.
+### 4. NLP - Traitement du Langage Naturel
+**Notebooks:**
+- `Lab_NLP_basic.ipynb` - Fondamentaux du NLP
+- `Lab_sarcasm.ipynb` - Détection de sarcasme
 
-📂 [Accéder au Lab 3](./Lab3/)
+Traitement de texte, embeddings, et classification de sentiments.
+
+📂 [Accéder au Lab NLP](./NLP/)
 
 ---
 
-## Navigation
+### 5. Time Series - Séries Temporelles
+**Notebooks:**
+- `Livrable_4_Time_series_BELLMIR_YAHYA.ipynb` - Analyse et prévision temporelle
+- `M5_Forecasting_Bellmir_Yahya_M20067.ipynb` - Compétition M5 Forecasting
+- `Comparison_models.ipynb` - Comparaison de modèles
 
-- `Classification/` - MLPClassifier (ReLU/Sigmoid), TensorFlow, Moons dataset
-- `[Nom_Folder]/` - Notebooks et ressources
-- `Lab1/` - Notebooks et ressources du Lab 1
-- `Lab2/` - Notebooks et ressources du Lab 2
-- `Lab3/` - Notebooks et ressources du Lab 3
+Prévisions temporelles avec LSTM, GRU et modèles classiques.
+
+📂 [Accéder au Lab Time Series](./Time_Series/)
+
+---
+
+## Navigation Rapide
+
+- 📊 `Regression/` - Prédictions numériques
+- 🎯 `Classification/` - MLPClassifier, TensorFlow, Moons dataset
+- 🖼️ `CNN/` - Classification d'images
+- 💬 `NLP/` - Traitement du langage, sarcasme
+- 📈 `Time_Series/` - Prévisions temporelles, M5 Forecasting
 
 ---
 
